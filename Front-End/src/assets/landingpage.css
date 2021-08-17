@@ -1,0 +1,350 @@
+
+.categories {
+    margin-top: 100px;
+  }
+  .offers {
+    margin-top: 100px;
+  }
+  .offerstext {
+    text-align: center;
+  }
+  .Categoriestext {
+    text-align: center;
+  }
+  .FeaturedproductsText {
+    margin-top: 200px;
+    text-align: center;
+  }
+  
+  .videoImage {
+    width: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .imagesbox {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .categoriesimagesbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .image2 {
+    margin-left: 10px;
+  }
+  .image3 {
+    margin-left: 10px;
+  }
+  .image2-text {
+    margin-left: 10px;
+  }
+  .image3-text {
+    margin-left: 10px;
+  }
+  .categoryimage1box {
+    border-radius: 25px 25px 0px 0px;
+    background: #bc2455;
+    padding: 20px;
+    width: 361px;
+    height: 260px;
+  }
+  .categoryimage2box {
+    border-radius: 25px 25px 0px 0px;
+    background: #202453;
+    padding: 20px;
+    width: 361px;
+    height: 260px;
+    margin-left: 10px;
+  }
+  .categoryimage3box {
+    border-radius: 25px 25px 0px 0px;
+    background: #bc2455;
+    padding: 20px;
+    width: 361px;
+    height: 260px;
+    margin-left: 10px;
+  }
+  .image2-1 {
+    position: relative;
+    top: 85px;
+    right: 30px;
+  }
+  .image2-2 {
+    position: relative;
+    top: 130px;
+    right: 35px;
+  }
+  .image2-3 {
+    position: relative;
+    top: 55px;
+    right: 30px;
+  }
+  .image2-1-text {
+    position: relative;
+    top: -245px;
+    left: 30px;
+    color: white;
+  }
+  .image2-2-text {
+    position: relative;
+    top: -275px;
+    left: 50px;
+    color: white;
+  }
+  .image2-3-text {
+    position: relative;
+    top: -290px;
+    right: 20px;
+    text-align: center;
+    color: white;
+  }
+  .ptextcategories {
+    position: relative;
+    left: 70px;
+  }
+  .featuredProductsList {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .category1 {
+    border-radius: 56px;
+    background: #bc2455;
+    text-align: center;
+    color: white;
+    width: 6%;
+    height: 35px;
+    position: relative;
+  }
+  .ptagtext {
+    margin-top: 6px;
+  }
+  .category2 {
+    margin-left: 30px;
+    border-radius: 56px;
+    text-align: center;
+  
+    width: 90px;
+    height: 50px;
+  }
+  .category3 {
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 56px;
+    letter-spacing: normal;
+    width: 90px;
+    height: 50px;
+  }
+  .category4 {
+    margin-left: 40px;
+    border-radius: 56px;
+    width: 90px;
+    height: 50px;
+  }
+  .dbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .d2box {
+    margin-left: 35px;
+  }
+  .d3box {
+    margin-left: 35px;
+  }
+  .d4box {
+    margin-left: 35px;
+  }
+  .d1textbox,
+  .d2textbox,
+  .d3textbox,
+  .d4textbox {
+    display: flex;
+  }
+  
+  .d1star {
+    margin-left: 70px;
+  }
+  .d2star {
+    margin-left: 70px;
+  }
+  .d3star {
+    margin-left: 70px;
+  }
+  .d4star {
+    margin-left: 70px;
+  }
+  .friendsClub {
+    margin-top: 140px;
+    display: flex;
+  }
+  .greyBlock {
+    background: grey;
+    height: 210px;
+    width: 2560px;
+    margin: 0;
+    display: flex;
+    background-color: #fafafa;
+  }
+  .greyBlockText {
+    margin: 0 15%;
+    text-align: center;
+    width: 40%;
+  }
+  
+  .redblock {
+    background-color: #bc2455;
+    height: 210px;
+    width: 100%;
+  }
+  .kid {
+    position: relative;
+    top: -145px;
+  }
+  .video {
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 45px;
+  }
+  .addblock {
+    display: flex;
+    margin-top: 100px;
+  }
+  .textblock1,
+  .add1,
+  .add2,
+  .add3,
+  .add4 {
+    margin-left: 15px;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .imagesbox {
+      display: grid;
+      grid-template-columns: auto;
+      margin-top: 40px;
+      justify-content: center;
+    }
+    img.categoriesimagesbox {
+      max-width: 100%;
+      height: auto;
+    }
+    .categoriesimagesbox {
+      /* margin-left: auto;
+    margin-right: 0;
+    display: table; */
+      margin-left: auto;
+      margin-right: auto;
+      display: table;
+      overflow: hidden;
+    }
+  
+    .categoryimage2box {
+      margin-bottom: 200px;
+    }
+    .categoryimage1box,
+    .categoryimage3box {
+      margin-bottom: 100px;
+    }
+    .image2-3-text {
+      margin-top: 10px;
+    }
+    .dbox {
+      display: grid;
+      grid-template-columns: auto;
+      margin-top: 40px;
+      justify-content: center;
+    }
+    /* .friendsClub{
+          margin-top: 140px;
+          display: block;    
+      }
+      .greyBlock{
+          background: grey;
+          height:200px;
+          width: 100%;
+          margin: 0;
+          background-color: #FAFAFA;
+          display: block;
+          
+      }
+      .greyBlockText{
+      position: relative;
+      font-size: 12px;
+      text-align: center;
+      }
+      .blackimage{
+          position: relative;
+          top: -315px;
+          right: 290px;
+        
+      } 
+      .redblock{
+          background-color: #BC2455;
+          height:20px;
+          width: 100%;
+      }   
+      .kid{
+          position: relative;
+          bottom:90px;
+          right:5px
+      } */
+    .friendsClub {
+      margin-top: 140px;
+      display: block;
+    }
+    .greyBlock {
+      background: grey;
+      height: 290px;
+      width: 100%;
+      margin: 0;
+      display: flex;
+      background-color: #fafafa;
+    }
+    .greyBlockText {
+      text-align: center;
+    }
+    .blackimage {
+      display: none;
+    }
+    .redblock {
+      background-color: #bc2455;
+      height: 210px;
+      width: 100%;
+    }
+    .kid {
+      position: relative;
+      top: -145px;
+      left: 45%;
+    }
+  
+    .addblock {
+      margin-top: 100px;
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+    }
+    .textblock1 {
+      width: 60%;
+      margin-bottom: 100px;
+      text-align: center;
+    }
+    .textblock1 {
+      margin-left: 15%;
+    }
+    .add1,
+    .add2,
+    .add3,
+    .add4 {
+      text-align: center;
+    }
+    .add4 {
+      margin-bottom: 30px;
+    }
+  }
